@@ -11,8 +11,8 @@
         <TextBox Name="numberTextBox" HorizontalAlignment="Left" Margin="342,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="58"/>
         <TextBox Name="output1TextBox" HorizontalAlignment="Left" Margin="160,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="240"/>
         <TextBox Name="output2TextBox" HorizontalAlignment="Left" Margin="160,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="240"/>
-        <Button Name="evaluateButton" Content="Evalueer" HorizontalAlignment="Left" Margin="434,138,0,0" VerticalAlignment="Top" Height="34" Width="60"/>
-        <Button Name="newButton" Content="Nieuw" HorizontalAlignment="Left" Margin="434,177,0,0" VerticalAlignment="Top" Height="33" Width="60"/>
-        <Button Name="endButton" Content="Einde" HorizontalAlignment="Left" Margin="434,215,0,0" VerticalAlignment="Top" Height="33" Width="60"/>
+        <Button Name="evaluateButton" Content="Evalueer" HorizontalAlignment="Left" Margin="434,138,0,0" VerticalAlignment="Top" Height="34" Width="60" Click="evaluateButton_Click"/>
+        <Button Name="newButton" Content="Nieuw" HorizontalAlignment="Left" Margin="434,177,0,0" VerticalAlignment="Top" Height="33" Width="60" Click="newButton_Click"/>
+        <Button Name="endButton" Content="Einde" HorizontalAlignment="Left" Margin="434,215,0,0" VerticalAlignment="Top" Height="33" Width="60" Click="endButton_Click"/>
     </Grid>
 </Window>
